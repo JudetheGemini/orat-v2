@@ -14,12 +14,12 @@ const speakers = [
   {
     id: 1,
     name: "Somto Mbelu",
-    title: "Founder",
+    title: "Program Lead",
     company: "Ottawa Responsible AI Hub",
     talk: "Welcome Remarks - Land Acknowledgment and appreciation for partners and attendees",
     time: "05:00 – 05:10",
-    bio: "Founder of Ottawa Responsible AI Hub, dedicated to fostering responsible AI development and implementation in the Ottawa community.",
-    image: "/placeholder.svg?height=400&width=400",
+    bio: "Program Lead of Ottawa Responsible AI Hub, dedicated to fostering responsible AI development and implementation in the Ottawa community.",
+    image: "/somto.jpg",
     expertise: ["AI Ethics", "Community Building", "Leadership"],
   },
   {
