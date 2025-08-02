@@ -155,7 +155,7 @@ export default function TechEventWebsite() {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-6xl py-8 mx-auto text-center">
             {/* Main Title */}
-            <h1 className="text-6xl md:text-8xl font-black mb-8 leading-[0.9] tracking-tight">
+            <h1 className="text-5xl md:text-7xl font-bold md:font-black mb-8 leading-[0.9] tracking-tighter">
               <span className="block bg-gradient-to-r from-[#FDFDFD] via-[#FDFDFD] to-[#094D5A] bg-clip-text text-transparent drop-shadow-2xl">
                 Responsible AI
               </span>
@@ -166,7 +166,7 @@ export default function TechEventWebsite() {
 
             {/* Enhanced Subtitle */}
             <div className="mb-12">
-              <p className="text-2xl md:text-4xl font-bold mb-4 text-[#FDFDFD] tracking-wide">
+              <p className="text-2xl md:text-4xl font-bold mb-4 text-[#FDFDFD]">
                 Community Voices, Meaningful Impact
               </p>
               <div className="w-24 h-1 bg-gradient-to-r from-[#094D5A] to-[#FDFDFD] mx-auto rounded-full"></div>
@@ -175,16 +175,16 @@ export default function TechEventWebsite() {
             {/* Event Details Pills */}
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <div className="flex items-center space-x-3 bg-[#FDFDFD]/15 backdrop-blur-sm rounded-sm px-6 py-3 border border-[#FDFDFD]/20">
+                <Clock className="w-5 h-5 text-[#094D5A]" />
+                <span className="font-semibold">5:00 - 7:30 PM</span>
+              </div>
+              <div className="flex items-center space-x-3 bg-[#FDFDFD]/15 backdrop-blur-sm rounded-sm px-6 py-3 border border-[#FDFDFD]/20">
                 <Calendar className="w-5 h-5 text-[#094D5A]" />
                 <span className="font-semibold">September 4, 2025</span>
               </div>
               <div className="flex items-center space-x-3 bg-[#FDFDFD]/15 backdrop-blur-sm rounded-sm px-6 py-3 border border-[#FDFDFD]/20">
                 <MapPin className="w-5 h-5 text-[#094D5A]" />
-                <span className="font-semibold">Incubator 13, Rideau-Rockcliffe CRC</span>
-              </div>
-              <div className="flex items-center space-x-3 bg-[#FDFDFD]/15 backdrop-blur-sm rounded-sm px-6 py-3 border border-[#FDFDFD]/20">
-                <Clock className="w-5 h-5 text-[#094D5A]" />
-                <span className="font-semibold">5:00 - 7:30 PM</span>
+                <span className="font-semibold">Community Resource Centre</span>
               </div>
             </div>
 
