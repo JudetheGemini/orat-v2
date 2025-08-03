@@ -76,18 +76,7 @@ const speakers = [
     bio: "Board Advisor at Ottawa Responsible AI Hub and CEO of Farmties. Experienced host and facilitator, passionate about fostering meaningful dialogue around responsible AI implementation.",
     image: "/oluwadara2.jpg",
     expertise: ["AI Governance", "Event Hosting", "Community Engagement"],
-  },
-  {
-    id: 7,
-    name: "Stephanie Kahindo",
-    title: "Advisor",
-    company: "AI Ethics and Research, Ottawa Responsible AI Hub",
-    talk: "Closing Remarks: Vote of Thanks",
-    time: "07:05 – 07:15",
-    bio: "Advisor specializing in AI Ethics and Research at Ottawa Responsible AI Hub. Dedicated to ensuring ethical considerations are at the forefront of AI development and deployment.",
-    image: "/placeholder.svg?height=400&width=400",
-    expertise: ["AI Ethics", "Research", "Policy Development"],
-  },
+  }
 ]
 
 export default function TechEventWebsite() {
@@ -276,10 +265,7 @@ export default function TechEventWebsite() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#001D3B]/80 via-transparent to-transparent" />
                         <div className="absolute bottom-4 left-4 right-4">
-                          <div className="flex items-center space-x-2 mb-2">
-                            <Clock className="w-4 h-4 text-[#FDFDFD]" />
-                            <span className="text-[#FDFDFD] font-medium">{speaker.time}</span>
-                          </div>
+
                           <h3 className="text-2xl font-bold text-[#FDFDFD] mb-1">{speaker.name}</h3>
                           <p className="text-[#FDFDFD]/80 text-sm">
                             {speaker.title} • {speaker.company}
