@@ -25,7 +25,7 @@ const scheduleItems = [
     title: "Welcome Remarks",
     description: "Land Acknowledgment and appreciation for partners and attendees",
     speaker: "Somto Mbelu",
-    role: "Founder, Ottawa Responsible AI Hub",
+    role: "Program, Ottawa Responsible AI Hub",
     type: "opening",
     color: "from-[#001D3B] to-[#094D5A]",
     icon: UserCheck,
